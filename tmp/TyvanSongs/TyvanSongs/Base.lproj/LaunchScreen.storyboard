@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78I-wF-ARG" userLabel="bkg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="tbx-U0-BNh">
+                                <rect key="frame" x="150" y="75" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tbx-U0-BNh" secondAttribute="height" multiplier="1:1" id="nr5-Il-LCN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tyvan songs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjn-u5-Esw">
+                                <rect key="frame" x="30" y="395" width="540" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тыва ырылар Тувинские песни" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuB-qk-fGL">
+                                <rect key="frame" x="30" y="440" width="540" height="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" cyan="0.0008087158203125" magenta="0.80248719453811646" yellow="0.441179787164799" black="0.0034180283546447754" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="17"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="78I-wF-ARG" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="3M6-gx-CxB"/>
+                            <constraint firstItem="tjn-u5-Esw" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.9" id="3l2-0p-rEF"/>
+                            <constraint firstItem="FuB-qk-fGL" firstAttribute="top" secondItem="tjn-u5-Esw" secondAttribute="bottom" constant="10" id="Ehq-jc-DlH"/>
+                            <constraint firstItem="78I-wF-ARG" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="I9C-hz-LLL"/>
+                            <constraint firstItem="tjn-u5-Esw" firstAttribute="top" secondItem="tbx-U0-BNh" secondAttribute="bottom" constant="20" id="Qhf-vX-3tw"/>
+                            <constraint firstItem="78I-wF-ARG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="enF-44-sRY"/>
+                            <constraint firstItem="tbx-U0-BNh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="j86-1g-xmh"/>
+                            <constraint firstItem="FuB-qk-fGL" firstAttribute="width" secondItem="tjn-u5-Esw" secondAttribute="width" id="kfT-gF-EOw"/>
+                            <constraint firstItem="FuB-qk-fGL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rZG-8I-X3m"/>
+                            <constraint firstItem="78I-wF-ARG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sFl-pY-Ptq"/>
+                            <constraint firstItem="tbx-U0-BNh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="sUM-y1-t9A"/>
+                            <constraint firstItem="tbx-U0-BNh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="3:4" id="vBI-DQ-YHH"/>
+                            <constraint firstItem="tjn-u5-Esw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yga-3X-WMU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1024" height="1024"/>
+    </resources>
+</document>

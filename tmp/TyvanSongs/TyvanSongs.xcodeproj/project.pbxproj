@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4140B61E1C659027000D2045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140B61D1C659027000D2045 /* main.m */; };
+		4140B6211C659027000D2045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140B6201C659027000D2045 /* AppDelegate.m */; };
+		4140B6241C659027000D2045 /* TyvanSongs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4140B6221C659027000D2045 /* TyvanSongs.xcdatamodeld */; };
+		4140B6271C659027000D2045 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140B6261C659027000D2045 /* MasterViewController.m */; };
+		4140B62A1C659027000D2045 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140B6291C659027000D2045 /* DetailViewController.m */; };
+		4140B62D1C659027000D2045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4140B62B1C659027000D2045 /* Main.storyboard */; };
+		4140B62F1C659027000D2045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4140B62E1C659027000D2045 /* Assets.xcassets */; };
+		4140B6321C659027000D2045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4140B6301C659027000D2045 /* LaunchScreen.storyboard */; };
+		4140B8E01C65E638000D2045 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4140B8DF1C65E638000D2045 /* CoreText.framework */; };
+		41F1312D1C8B4B160076BC66 /* OneConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F131281C8B4B160076BC66 /* OneConnection.m */; };
+		41F1312E1C8B4B160076BC66 /* TyvanSongsConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F1312A1C8B4B160076BC66 /* TyvanSongsConstant.m */; };
+		41F1312F1C8B4B160076BC66 /* TyvanSongsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F1312C1C8B4B160076BC66 /* TyvanSongsUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4140B6191C659027000D2045 /* TyvanSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyvanSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4140B61D1C659027000D2045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4140B61F1C659027000D2045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4140B6201C659027000D2045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4140B6231C659027000D2045 /* TyvanSongs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TyvanSongs.xcdatamodel; sourceTree = "<group>"; };
+		4140B6251C659027000D2045 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4140B6261C659027000D2045 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4140B6281C659027000D2045 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4140B6291C659027000D2045 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4140B62C1C659027000D2045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4140B62E1C659027000D2045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4140B6311C659027000D2045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4140B6331C659027000D2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4140B8DF1C65E638000D2045 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		41F131271C8B4B160076BC66 /* OneConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OneConnection.h; path = TyvanSongs/OneConnection.h; sourceTree = SOURCE_ROOT; };
+		41F131281C8B4B160076BC66 /* OneConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OneConnection.m; path = TyvanSongs/OneConnection.m; sourceTree = SOURCE_ROOT; };
+		41F131291C8B4B160076BC66 /* TyvanSongsConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TyvanSongsConstant.h; path = TyvanSongs/TyvanSongsConstant.h; sourceTree = SOURCE_ROOT; };
+		41F1312A1C8B4B160076BC66 /* TyvanSongsConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TyvanSongsConstant.m; path = TyvanSongs/TyvanSongsConstant.m; sourceTree = SOURCE_ROOT; };
+		41F1312B1C8B4B160076BC66 /* TyvanSongsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TyvanSongsUtil.h; path = TyvanSongs/TyvanSongsUtil.h; sourceTree = SOURCE_ROOT; };
+		41F1312C1C8B4B160076BC66 /* TyvanSongsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TyvanSongsUtil.m; path = TyvanSongs/TyvanSongsUtil.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4140B6161C659027000D2045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4140B8E01C65E638000D2045 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4140B6101C659027000D2045 = {
+			isa = PBXGroup;
+			children = (
+				4140B8DF1C65E638000D2045 /* CoreText.framework */,
+				4140B63D1C65977E000D2045 /* Util */,
+				4140B61B1C659027000D2045 /* TyvanSongs */,
+				4140B61A1C659027000D2045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4140B61A1C659027000D2045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4140B6191C659027000D2045 /* TyvanSongs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4140B61B1C659027000D2045 /* TyvanSongs */ = {
+			isa = PBXGroup;
+			children = (
+				4140B61F1C659027000D2045 /* AppDelegate.h */,
+				4140B6201C659027000D2045 /* AppDelegate.m */,
+				4140B6251C659027000D2045 /* MasterViewController.h */,
+				4140B6261C659027000D2045 /* MasterViewController.m */,
+				4140B6281C659027000D2045 /* DetailViewController.h */,
+				4140B6291C659027000D2045 /* DetailViewController.m */,
+				4140B62B1C659027000D2045 /* Main.storyboard */,
+				4140B62E1C659027000D2045 /* Assets.xcassets */,
+				4140B6301C659027000D2045 /* LaunchScreen.storyboard */,
+				4140B6331C659027000D2045 /* Info.plist */,
+				4140B6221C659027000D2045 /* TyvanSongs.xcdatamodeld */,
+				4140B61C1C659027000D2045 /* Supporting Files */,
+			);
+			path = TyvanSongs;
+			sourceTree = "<group>";
+		};
+		4140B61C1C659027000D2045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4140B61D1C659027000D2045 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4140B63D1C65977E000D2045 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				41F131271C8B4B160076BC66 /* OneConnection.h */,
+				41F131281C8B4B160076BC66 /* OneConnection.m */,
+				41F131291C8B4B160076BC66 /* TyvanSongsConstant.h */,
+				41F1312A1C8B4B160076BC66 /* TyvanSongsConstant.m */,
+				41F1312B1C8B4B160076BC66 /* TyvanSongsUtil.h */,
+				41F1312C1C8B4B160076BC66 /* TyvanSongsUtil.m */,
+			);
+			name = Util;
+			path = "../../../Downloads/iOS_TopSongs-master/TopSongs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4140B6181C659027000D2045 /* TyvanSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4140B6361C659027000D2045 /* Build configuration list for PBXNativeTarget "TyvanSongs" */;
+			buildPhases = (
+				4140B6151C659027000D2045 /* Sources */,
+				4140B6161C659027000D2045 /* Frameworks */,
+				4140B6171C659027000D2045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyvanSongs;
+			productName = TyvanSongs;
+			productReference = 4140B6191C659027000D2045 /* TyvanSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4140B6111C659027000D2045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ali Kuzhuget";
+				TargetAttributes = {
+					4140B6181C659027000D2045 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C7XLM7Q227;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4140B6141C659027000D2045 /* Build configuration list for PBXProject "TyvanSongs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4140B6101C659027000D2045;
+			productRefGroup = 4140B61A1C659027000D2045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4140B6181C659027000D2045 /* TyvanSongs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4140B6171C659027000D2045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4140B6321C659027000D2045 /* LaunchScreen.storyboard in Resources */,
+				4140B62F1C659027000D2045 /* Assets.xcassets in Resources */,
+				4140B62D1C659027000D2045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4140B6151C659027000D2045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F1312E1C8B4B160076BC66 /* TyvanSongsConstant.m in Sources */,
+				41F1312D1C8B4B160076BC66 /* OneConnection.m in Sources */,
+				4140B62A1C659027000D2045 /* DetailViewController.m in Sources */,
+				4140B6271C659027000D2045 /* MasterViewController.m in Sources */,
+				4140B6241C659027000D2045 /* TyvanSongs.xcdatamodeld in Sources */,
+				41F1312F1C8B4B160076BC66 /* TyvanSongsUtil.m in Sources */,
+				4140B6211C659027000D2045 /* AppDelegate.m in Sources */,
+				4140B61E1C659027000D2045 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4140B62B1C659027000D2045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4140B62C1C659027000D2045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4140B6301C659027000D2045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4140B6311C659027000D2045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4140B6341C659027000D2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4140B6351C659027000D2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4140B6371C659027000D2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = TyvanSongs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tyv.TyvanSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		4140B6381C659027000D2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = TyvanSongs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.tyv.TyvanSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4140B6141C659027000D2045 /* Build configuration list for PBXProject "TyvanSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4140B6341C659027000D2045 /* Debug */,
+				4140B6351C659027000D2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4140B6361C659027000D2045 /* Build configuration list for PBXNativeTarget "TyvanSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4140B6371C659027000D2045 /* Debug */,
+				4140B6381C659027000D2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4140B6221C659027000D2045 /* TyvanSongs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4140B6231C659027000D2045 /* TyvanSongs.xcdatamodel */,
+			);
+			currentVersion = 4140B6231C659027000D2045 /* TyvanSongs.xcdatamodel */;
+			path = TyvanSongs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4140B6111C659027000D2045 /* Project object */;
+}
